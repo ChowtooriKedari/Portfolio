@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Raleway];
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer
+    }
+}
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(112, 157, 255, 0.8),
+        hsla(242, 74%, 61%, 0.8)   
+    )!important;
+}
+
+@layer components{
+    .bannerIcon{
+        @apply w-16 h-16 bg-black text-gray-200 text-xl 
+        inline-flex items-center justify-center rounded-md 
+        shadow-shadowOne bg-opacity-30 hover:bg-opacity-50 hover:-translate-y-1 transition-all 
+        hover:text-designColor cursor-pointer duration-300;
+    }
+    .newbgOpacity {
+        @apply bg-[gray];
+                          }
+    .resumeLi {
+    @apply w-full h-20 bg-black text-xl text-gray-300 flex justify-center cursor-pointer  duration-300 items-center border-[1px] rounded-none;
+         }
+.bgOpacity {
+@apply bg-black bg-opacity-40;
+                  }
+    .contactInput{
+        @apply w-full h-12 rounded-lg border-b-[1px] border-b-gray-600 bg-[#191b1e] text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300
+    }
+.contactTextArea{
+    @apply w-full rounded-lg border-b-[1px] border-b-gray-600 bg-[#191b1e] text-lightText px-4 py-2 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300 resize-none
+}
+}
+
+.active {
+    color: white;
+}
+.scrollbar-hide::-webkit-scrollbar{
+    display: none;
+}

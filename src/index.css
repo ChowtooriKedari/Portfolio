@@ -36,9 +36,41 @@
         shadow-shadowOne bg-opacity-30 hover:bg-opacity-50 hover:-translate-y-1 transition-all 
         hover:text-designColor cursor-pointer duration-300;
     }
+      @media screen and (min-width: 370px) and (max-width: 1023px) {
+        #my-content { height:fit-content;background-color: black;display:  flex;
+            border:1px gray; 
+            flex-direction: column;
+                }   /* hide it elsewhere */
+      }
+    @media screen and (min-width: 1024px)  {
+        #my-content { height:fit-content;background-color: black;display:  flex;
+             border:1px gray; 
+            }  /* show it on small screens */
+      }
+      
+      @media screen and (min-width: 370px) and (max-width: 1023px) {
+        #AvatarClass { 
+            #AvatarCanvas{
+            position: relative;
+            height: 20em;
+            width : 20em;
+            display:flex;
+            margin-top:-1em;
+                }   /* hide it elsewhere */
+            }
+            #AboutContent{
+                padding-top:1em;
+            }
+            #AboutContentP1{
+                padding-top:0 !important;
+            }
+            #AboutContentCursor{
+                padding-top:0.5em !important;
+            }
+      }
     .newbgOpacity {
         @apply bg-[gray];
-                          }
+            }
     .resumeLi {
     @apply w-full h-20 bg-black text-xl text-gray-300 flex justify-center cursor-pointer  duration-300 items-center border-[1px] rounded-none;
          }

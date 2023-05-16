@@ -18,7 +18,7 @@ const Home = () => {
       return <primitive object={scene} {...props} /> 
     }
   return (
-    <div name='home' className='h-full bg-[black] flex flex-col-2 border-b-[1px] border-b-gray-600'>
+    <section name='home' className='homeClass' id="my-content">
       {/* Container */}
          <div className='flex mt-8'>
     <div className="App-header -mt-8">
@@ -26,7 +26,8 @@ const Home = () => {
         style={{
           "position": "relative",
           "height": "500px",
-          "width" :"500px",
+          "max-width":"500px",
+          "width" :"375px",
           "display":"flex",
           "mt":"-1"
         }}
@@ -43,12 +44,12 @@ const Home = () => {
       </Canvas>
     </div>
   </div>
-      <div className='max-w-[1000px] w-1/2 px-4 justify-left h-full'>
-        <p className='text-yellow-600 pt-40 pl-8'>Hi, I am </p>
-        <h1 className='text-4xl font-bold text-[grey] pl-8'>
+      <div className='max-w-[1000px] pr-8 px-4 justify-left h-full' id="AboutContent">
+        <p className='text-yellow-600 pt-40 pl-4' id="AboutContentP1">Hi, I am </p>
+        <h1 className='text-4xl font-bold text-[grey] pl-4'>
           Kedari Chowtoori
         </h1>
-        <h2 className="text-4xl font-bold text-white h-[80px] md:h-auto pl-8">
+        <h2 className="text-4xl font-bold text-white h-[80px] md:h-auto pl-4" >
             a <span>{text}</span>
             <Cursor
               cursorBlinking={true}
@@ -56,7 +57,7 @@ const Home = () => {
               cursorColor="#ff014f"
             />
           </h2>
-        <div className='text-[white] py-4 max-w-[700px] pl-8'>
+        <div className='text-[white] py-4 max-w-[900px] pl-4 text-justify'  id="AboutContentCursor">
         <p>I’m a front-end developer with a year and a half of experience in web development.
           I like to build interactive websites that provide a better user experience.
                  I have experience working on projects that has a huge customer base.
@@ -71,7 +72,7 @@ const Home = () => {
  
    
   </div>
-</div>
+</section>
   );
 };
 

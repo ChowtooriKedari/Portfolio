@@ -49,7 +49,7 @@ const Navbar = () => {
         <li>
           <Link to='projects' smooth={true} duration={500}>
           <button className='inline border-b-4 border-pink-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-gray-300 hover:text-white-600'>
-          Work
+          Projects
         </button>   
           </Link>
         </li>
@@ -82,20 +82,20 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
+          <Link onClick={handleClick} to='experience' smooth={true} duration={500}>
+            Experience
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {' '}
+          <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
+            Projects
           </Link>
         </li>
         <li className='py-6 text-4xl'>

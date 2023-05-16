@@ -14,9 +14,10 @@ import TypeScript from '../assets/TypeScript.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full border-b-[1px] border-b-gray-600 h-screen bg-[black] text-gray-300'>
+    <section name='skills' className=' border-b-[1px] border-b-gray-600 pt-8  bg-[black] text-gray-300'>
+   
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto p-2 flex flex-col justify-center w-full h-full'>
+      <div className='max-w-[1000px] mx-auto p-2 flex flex-col justify-center w-full'>
         <div className='flex flex-col w-full justify-center items-center'>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Skills</p>
                </div>
@@ -65,7 +66,7 @@ const Skills = () => {
 
           </div>
       </div>
-    </div>
+    </section>
   );
 };
 

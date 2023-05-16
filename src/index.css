@@ -36,7 +36,7 @@
         shadow-shadowOne bg-opacity-30 hover:bg-opacity-50 hover:-translate-y-1 transition-all 
         hover:text-designColor cursor-pointer duration-300;
     }
-      @media screen and (min-width: 370px) and (max-width: 1023px) {
+      @media screen and (min-width: 280px) and (max-width: 1023px) {
         #my-content { height:fit-content;background-color: black;display:  flex;
             border:1px gray; 
             flex-direction: column;

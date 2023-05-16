@@ -7,8 +7,8 @@ const Work = () => {
   return (
  <section
         id="projects"
-        className="w-full py-20 border-b-[1px] border-b-gray-600 px-4 bg-[black]">
-          <div  className='w-full bg-[black] text-gray-300'>
+        className="w-full py-20 border-b-[1px] border-b-gray-600 px-4">
+          <div  className='w-full text-gray-300'>
           <div className='max-w-[1000px] mx-auto p-2 flex flex-col justify-center w-full h-full'>
         <div className='flex flex-col w-full justify-center items-center'>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300 p-4'>Projects</p>

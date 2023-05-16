@@ -9,7 +9,7 @@ const Home = () => {
   const [text] = useTypewriter({
     words: ["Front-end Developer", "Unity Developer","Problem Solver"],
     loop: true,
-    typeSpeed: 20,
+    typeSpeed: 30,
     deleteSpeed: 10,
     delaySpeed: 2000,
   });
@@ -18,7 +18,7 @@ const Home = () => {
       return <primitive object={scene} {...props} /> 
     }
   return (
-    <section name='home' className='homeClass' id="my-content">
+    <section name='home' className='h-full flex flex-col-2 border-b-[1px] border-b-gray-600 z-10' id="my-content">
       {/* Container */}
          <div className='flex mt-8'>
     <div className="App-header -mt-8">

@@ -14,7 +14,7 @@ import TypeScript from '../assets/TypeScript.png';
 
 const Skills = () => {
   return (
-    <section name='skills' className=' border-b-[1px] border-b-gray-600 py-20  bg-[black] text-gray-300'>
+    <section name='skills' className=' border-b-[1px] border-b-gray-600 py-20 text-gray-300'>
    
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-2 flex flex-col justify-center w-full'>

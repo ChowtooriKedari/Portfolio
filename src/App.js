@@ -9,14 +9,16 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
-      <Navbar />
+    <div className="bg-[black] bg-opacity-90">
+    <Navbar />
+    <div className="max-w-screen-xl mx-auto">
       <Home />
       <Skills />
       <Experience/>
       <Work />
       <Contact />
       <Footer/>
+    </div>
     </div>
   );
 }

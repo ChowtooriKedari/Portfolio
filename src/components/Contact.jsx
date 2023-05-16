@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section
     id="contact"
-    className="w-full py-20 border-b-[1px] border-b-gray-600 bg-[black] "
+    className="w-full py-20 border-b-[1px] border-b-gray-600"
   >
      <div name='contact' className='w-full  flex justify-center items-center'>
         <div className='flex flex-col max-w-[600px] '>

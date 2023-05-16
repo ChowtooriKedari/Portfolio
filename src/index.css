@@ -41,23 +41,8 @@
             border:1px gray; 
             flex-direction: column;
                 }   /* hide it elsewhere */
-      }
-    @media screen and (min-width: 1024px)  {
-        #my-content { height:fit-content;background-color: black;display:  flex;
-             border:1px gray; 
-            }  /* show it on small screens */
-      }
-      
+      }      
       @media screen and (min-width: 370px) and (max-width: 1023px) {
-        #AvatarClass { 
-            #AvatarCanvas{
-            position: relative;
-            height: 20em;
-            width : 20em;
-            display:flex;
-            margin-top:-1em;
-                }   /* hide it elsewhere */
-            }
             #AboutContent{
                 padding-top:1em;
             }
@@ -67,6 +52,9 @@
             #AboutContentCursor{
                 padding-top:0.5em !important;
             }
+      }
+      #navbar{
+        z-index:100 !important;
       }
     .newbgOpacity {
         @apply bg-[gray];

@@ -5,7 +5,7 @@ import { workExperiences } from "../../data/data.js";
 const Experience = () => {
   const WorkExperiences=workExperiences;
   return (
-  <section id="experience" className="border-b-[1px] border-b-gray-600 bg-[black] pl-20">
+  <section id="experience" className="border-b-[1px] border-b-gray-600 bg-[black] pl-10 pr-5">
 <div name='experience' className='w-full bg-[black] text-gray-300'>
 <div className='max-w-[1000px] mx-auto p-2 flex flex-col justify-center w-full h-full'>
         <div className='flex flex-col w-full justify-center items-center'>

@@ -20,16 +20,15 @@ const Home = () => {
   return (
     <section name='home' className='h-full flex flex-col-2 border-b-[1px] border-b-gray-600 z-10' id="my-content">
       {/* Container */}
-         <div className='flex mt-8'>
+         <div className='flex mt-8 mx-auto'>
     <div className="App-header -mt-8">
       <Canvas           
         style={{
           "position": "relative",
           "height": "500px",
           "max-width":"500px",
-          "width" :"375px",
-          "display":"flex",
-          "mt":"-1"
+          "width" :"350px",
+          "display":"flex"
         }}
       >
 

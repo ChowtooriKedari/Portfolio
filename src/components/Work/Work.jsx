@@ -58,7 +58,7 @@ const Work = () => {
               )}
     </div>
   </div>
-  <p className="text-sm tracking-wide mt-3 text-white hover:text-gray-100 duration-300">
+  <p className="text-sm tracking-wide mt-3 text-white hover:text-gray-100 duration-300 text-justify">
     {item.des}
   </p>
 </div>

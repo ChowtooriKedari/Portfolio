@@ -11,6 +11,7 @@ import Unity from '../assets/Unity.png';
 import CSharp from '../assets/CSharp.png';
 import TypeScript from '../assets/TypeScript.png';
 import Maya from '../assets/Maya.png';
+import UnityImage from '../assets/UnityImage.png';
 
 const Skills = () => {
   return (
@@ -44,7 +45,7 @@ const Skills = () => {
                   <p className='my-4'>Java Script</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Unity} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={UnityImage} alt="HTML icon" />
                   <p className='my-4'>Unity</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>

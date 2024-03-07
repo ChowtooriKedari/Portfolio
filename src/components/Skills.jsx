@@ -10,7 +10,7 @@ import GitHub from '../assets/github.png';
 import Unity from '../assets/Unity.png'; 
 import CSharp from '../assets/CSharp.png';
 import TypeScript from '../assets/TypeScript.png';
-
+import Maya from '../assets/Maya.png';
 
 const Skills = () => {
   return (

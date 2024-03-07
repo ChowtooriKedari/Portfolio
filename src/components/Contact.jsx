@@ -25,13 +25,13 @@ const Contact = () => {
       <p className="text-base text-md text-gray-400 flex items-center gap-2">
         Phone:{" "}
         <span className="text-lightText">
-          <a href="tel:+919182617078">+91 9182617078</a>
+        <a href="tel:+1 (603)349-0683">+1 (603) 349-0683</a>
         </span>
       </p>
       <p className="text-base text-md text-gray-400 flex items-center gap-2">
         Email:{" "}
         <span className="text-lightText">
-          <a href="mailto:kedarichowtoori@gmail.com">kedarichowtoori@gmail.com</a>
+        <a href="mailto:kedarichowtoori@gmail.com">kedari.chowtoori.gr@dartmouth.edu</a>
         </span>
       </p>
     </div>

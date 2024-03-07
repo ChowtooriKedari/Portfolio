@@ -49,12 +49,13 @@ export const projectsData=[
       subTitle: "Blackhawk Network- (03/2023 - Present)",
       location: "Bangalore, India",
       description: [
-         " • Member of the platforms-shared services team and worked on company’s internal project and Business Gift card store project",
-         " • Collaborated with a team of 6 to create new functionalities",
-         " • Developed functionalities for web-pages using client-side scripts JavaScript and Angular",
-         " • Developed web services for fetching and exposing data from DB",
-         " • Worked on Unit testing of the application by creating unit test cases with NUnit" ,
-         " • Handled parts of UAT and production deployment"
+         " • Member of the platforms-shared services product line - Business Gift card store project Scrum Team and developed functionalities for web pages using client-side scripts JavaScript and Angular",
+         " • Conducted thorough analysis of business goals to ensure alignment with website functionality",
+         " • Worked on pagination based product fetching with optimized API requests that led to effective server operations",
+         " • Server calls were strategically divided based on priority and developed server-side pagination for maximum performance",
+         " • Created and implemented test cases for services using tools like NUnit and MoQ, demonstrating skill in software testing and raising code coverage to 80% ensuring that the source is being thoroughly tested by following software development life cycle (SDLC) methodology",
+         " • Ensured cross-browser compatibility, optimized website performance, and developed a mobile responsive design to enhance the user experience for customers accessing the website on smartphones and tablets",
+         " • Handled parts of UAT and production deployments by collaborating with database and infrastructure teams to ensure smooth deployments"
       ],
     },
     {
@@ -63,12 +64,13 @@ export const projectsData=[
       subTitle: "Blackhawk Network - (11/2021 - 03/2023)",
       location: "Bangalore, India",
       description: [
-        " • Member of the platforms-shared services team and worked on company’s internal project - AskLeadership",
-        " • AskLeadership is an App developed for the associates to ask leadership the questions they have.",
-        " • Implemented search and sort functionalities in the application",
-        " • Worked on the integration of Microsoft Azure Graph APIs into the application",
-        " • Worked on test cases to test the app functionality and tested performance using JMeter Scripts"
-     ],
+        " • Member of the platforms-shared services team and worked on the company’s internal project and Business Gift card store project",
+        " • Played a vital part in the creation of a web application that redesigned the employee inquiry process by utilizing Microsoft Graph API and Azure AD",
+        " • Developing, deploying, and maintaining the web pages were part of my daily job activities",
+        " • Used data insights to make informed decisions and optimize the application for better performance",
+        " • Worked on database scripts and ensured they were optimized and produced the desired results",
+        " • Developed web services for fetching and exposing data from databases and worked on optimizing API calls",
+      ],
     },
     {
       _id: 1,
@@ -78,8 +80,9 @@ export const projectsData=[
       description: [
         " • Worked as an Intern in the Domain - Product Content Management with .Net Product Content Development Team",
         " • Daily tasks include Coding, testing, debugging, documenting and implementing parts of the software that are assigned",
-        " • Developed web services and provided the documentation for the same",
-        " • Worked on code optimization ensuring performance"
-      ],
+        " • Developed web services to fetch and display product catalog information and provided the documentation for the same",
+        " • Worked on a Rule Engine-based project that assists the product owner in deciding which products, together with their descriptions,that should be presented in the catalog for the user",
+        " • Worked on code optimization ensuring performance and worked on unit and integration testing of the application"
+   ],
     },
   ];

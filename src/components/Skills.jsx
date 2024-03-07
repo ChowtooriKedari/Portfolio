@@ -63,6 +63,10 @@ const Skills = () => {
                   <img className='w-20 mx-auto' src={CSharp} alt="HTML icon" />
                   <p className='my-4'>C#</p>
               </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Maya} alt="HTML icon" />
+                  <p className='my-4'>Maya</p>
+              </div>
 
           </div>
       </div>

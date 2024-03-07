@@ -40,6 +40,15 @@ export const projectsData=[
     src: 'Cafe.png',
     githubLink: "https://github.com/ChowtooriKedari/cafe_management"
   },
+  {
+    id:6,
+    title: "The Garage",
+    des: "Developed a three-dimensional room with a variety of components, including fixtures, furniture, and architectural features. Using Maya's modeling tools, each of these elements was carefully designed to get the appropriate looks and functionality inside the virtual environment."+
+    "Textures from Adobe Substance were integrated into the models to improve the scene's tactile quality and visual authenticity. These textures were chosen with care to give the surfaces of the objects a realistic appearance of materials like metal, wood, cloth, or glass, giving the scene more depth and realism."+
+    "The goal was to build an engaging and realistic virtual room that captivates visitors and communicates a sense of realism and coherence by combining the capabilities of Maya for 3D modeling with Adobe Substance for texture creation",
+    src: 'Garage.jpg',
+    websiteLink: "https://drive.google.com/drive/folders/1uH8rLAE3Xq_BcxFQM6fpvZrPjhhCehtl?usp=sharing"
+  },
 ];
   
   export const workExperiences= [

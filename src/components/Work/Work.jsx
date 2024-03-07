@@ -28,11 +28,9 @@ const Work = () => {
           transition-colors hover:scale-105 duration-500 hover:transition hover:ease-in-out">
           <div className="w-full h-[80%] overflow-hidden rounded-lg">
               <img
-                    className="w-full object-cover h-auto"
+                    className="w-full h-auto max-w-[250px] max-h-[200px] object-cover"
                     src={item.src}
                     alt={item.src}
-                    max-height={200}
-                    max-width={250} 
                   />
         </div>
 <div className="w-full mt-5 flex flex-col gap-6">

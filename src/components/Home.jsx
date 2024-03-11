@@ -7,7 +7,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 const Home = () => {
   const [text] = useTypewriter({
-    words: ["Front-end Developer", "Unity Developer","Problem Solver"],
+    words: ["Full-Stack Developer"],
     loop: true,
     typeSpeed: 30,
     deleteSpeed: 10,
@@ -57,7 +57,7 @@ const Home = () => {
             />
           </h2>
         <div className='text-[white] py-4 max-w-[900px] pl-4 text-justify'  id="AboutContentCursor">
-        <p>I’m a front-end developer with a year and a half of experience in web development.
+        <p>I’m a full-stack developer with a year and a half of experience in web development.
           I like to build interactive websites that provide a better user experience.
                  I have experience working on projects that has a huge customer base.
                I also love to build Virtual Reality Simulations and games.

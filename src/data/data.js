@@ -46,6 +46,15 @@ export const projectsData=[
     src: 'Garage.jpg',
     websiteLink: "https://drive.google.com/drive/folders/1uH8rLAE3Xq_BcxFQM6fpvZrPjhhCehtl?usp=sharing"
   },
+  {
+    id:7,
+    title: "Haunted House",
+    des: "Step into the Haunted Manor VR experience and brace yourself to confront the darkest recesses of your mind as you traverse its haunted halls."+
+    "But beware, for in this realm of the supernatural, reality is elusive, and the truth obscured by shadows."+
+    "Are you courageous enough to unveil the secrets shrouded within its eerie confines?",
+    src: 'HauntedHouseNew.png',
+    websiteLink: "https://drive.google.com/drive/folders/1IaZwuiDS0dgn5GlZmW4M6J0UtvGCISnH?usp=sharing"
+  },
 ];
   
   export const workExperiences= [

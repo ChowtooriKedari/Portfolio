@@ -39,6 +39,16 @@ export const projectsData=[
   },
   {
     id:6,
+    title: "Haunted House",
+    des: "Step into the Haunted Manor VR experience and brace yourself to confront the darkest recesses of your mind as you traverse its haunted halls."+
+    "But beware, for in this realm of the supernatural, reality is elusive, and the truth obscured by shadows."+
+    "Are you courageous enough to unveil the secrets shrouded within its eerie confines?",
+    src: 'car.png',
+    githubLink: "https://drive.google.com/drive/folders/1IaZwuiDS0dgn5GlZmW4M6J0UtvGCISnH?usp=sharing",
+    websiteLink: "https://drive.google.com/file/d/18Rrx7V8v4H6h2ADc-6yJ1XR5I5WgJL9N/view?usp=sharing",
+  },
+  {
+    id:7,
     title: "The Garage",
     des: "Developed a three-dimensional room with a variety of components, including fixtures, furniture, and architectural features. Using Maya's modeling tools, each of these elements was carefully designed to get the appropriate looks and functionality inside the virtual environment."+
     "Textures from Adobe Substance were integrated into the models to improve the scene's tactile quality and visual authenticity. These textures were chosen with care to give the surfaces of the objects a realistic appearance of materials like metal, wood, cloth, or glass, giving the scene more depth and realism."+
@@ -46,15 +56,7 @@ export const projectsData=[
     src: 'Garage.jpg',
     websiteLink: "https://drive.google.com/drive/folders/1uH8rLAE3Xq_BcxFQM6fpvZrPjhhCehtl?usp=sharing"
   },
-  {
-    id:7,
-    title: "Haunted House",
-    des: "Step into the Haunted Manor VR experience and brace yourself to confront the darkest recesses of your mind as you traverse its haunted halls."+
-    "But beware, for in this realm of the supernatural, reality is elusive, and the truth obscured by shadows."+
-    "Are you courageous enough to unveil the secrets shrouded within its eerie confines?",
-    src: 'car.png',
-    websiteLink: "https://drive.google.com/drive/folders/1IaZwuiDS0dgn5GlZmW4M6J0UtvGCISnH?usp=sharing"
-  },
+
 ];
   
   export const workExperiences= [

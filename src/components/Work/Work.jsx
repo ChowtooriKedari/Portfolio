@@ -2,6 +2,7 @@ import React from "react";
 import { projectsData } from "../../data/data.js";
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
+import { AiFillYoutube } from "react-icons/ai";
 
 const Work = () => {
   return (

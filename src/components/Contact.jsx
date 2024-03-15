@@ -16,11 +16,11 @@ const Contact = () => {
     <div className="flex flex-col gap-4 justify-center items-center text-center rounded-lg p-20  duration-1000">
       <h3 className="text-3xl font-bold text-white">Kedari Chowtoori</h3>
       <p className="text-lg font-normal text-designColor">
-        Full Stack Developer and Unity Developer
+        Full-Stack Developer and Unity Developer
       </p>
       <p className="text-base text-gray-400 tracking-wide">
         Hello, Thank you for taking time to visit my portfolio! Please contact me on the below details if 
-        you&apos;re in search for a Front-end/Unity Developer.
+        you&apos;re in search for a Full-Stack/Unity Developer.
       </p>
       <p className="text-base text-md text-gray-400 flex items-center gap-2">
         Phone:{" "}

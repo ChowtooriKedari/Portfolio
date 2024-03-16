@@ -64,7 +64,15 @@ export const projectsData=[
     src: 'Garage.jpg',
     githubLink: "https://github.com/ChowtooriKedari/The-Garage",
   },
-
+  {
+    id:9,
+    title: "Sky Pirates",
+    des: "Centuries of human exploitation have left Earth barren of natural resources. In a fight for survival, humanity has fled to the skies."+
+    "In this aerial domain, majestic yet perilous dragons roam freely, serving as the final source of sustenance in the sky. A VR Game where the task of the player is to fight against a dragon and survive.",
+    src: 'SkyPirates.png',
+    githubLink: "https://drive.google.com/drive/folders/1fbwB62yGF9QObagc-3ubUoDyoj_pGeQq?usp=sharing",
+    websiteLink: "https://www.youtube.com/watch?v=JVHyfT9JBFo",
+  },
 ];
   
   export const workExperiences= [

@@ -79,7 +79,7 @@ export const projectsData=[
     {
       _id: 3,
       title: "Software Engineer",
-      subTitle: "Blackhawk Network- (03/2023 - Present)",
+      subTitle: "Blackhawk Network- (03/2023 - 07/2023)",
       location: "Bangalore, India",
       description: [
          " • Member of the platforms-shared services product line - Business Gift card store project Scrum Team and developed functionalities for web pages using client-side scripts JavaScript and Angular",

@@ -3,10 +3,10 @@ import {Stage, PresentationControls} from "@react-three/drei";
 import { Canvas } from '@react-three/fiber';
 import {useGLTF} from "@react-three/drei";
 const About = () => {
-function Model(props){
-    const {scene} = useGLTF("/Avatar.glb");
-    return <primitive object={scene} {...props} /> 
-  }
+// function Model(props){
+//     const {scene} = useGLTF("/Avatar.glb");
+//     return <primitive object={scene} {...props} /> 
+//   }
   
     return (
     <div name='about' className='h-screen bg-[black] text-gray-300'>
@@ -34,7 +34,7 @@ function Model(props){
  
        <div className="App">
     <div className="App-header">
-      <Canvas           
+      {/* <Canvas           
         style={{
           "position": "relative",
           "height": "1000px"
@@ -49,7 +49,7 @@ function Model(props){
             <Model/>
           </Stage>
         </PresentationControls>
-      </Canvas>
+      </Canvas> */}
     </div>
   </div>
   </div>

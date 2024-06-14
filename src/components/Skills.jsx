@@ -12,7 +12,7 @@ import CSharp from '../assets/CSharp.png';
 import TypeScript from '../assets/TypeScript.png';
 import Maya from '../assets/Maya.png';
 import UnityImage from '../assets/UnityLogo.png';
-
+import Python from  '../assets/python.jpg';
 const Skills = () => {
   return (
     <section name='skills' className=' border-b-[1px] border-b-gray-600 py-20 text-gray-300'>
@@ -23,7 +23,7 @@ const Skills = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Skills</p>
                </div>
 
-          <div className='w-full grid grid-cols-2 sm:grid-cols-6 gap-5 text-center py-8'>
+          <div className='w-full grid grid-cols-2 sm:grid-cols-6 gap-5 text-center py-8 px-5'>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Angular} alt="HTML icon" />
                   <p className='my-4'>Angular</p>
@@ -63,6 +63,10 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={CSharp} alt="HTML icon" />
                   <p className='my-4'>C#</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Python} alt="HTML icon" />
+                  <p className='my-4'>python</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Maya} alt="HTML icon" />

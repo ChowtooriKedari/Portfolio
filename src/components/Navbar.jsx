@@ -17,7 +17,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='border-b-[1px] bg-[#5F9EA0] border-b-gray-600 fixed 
+    <div className='bg-[black] fixed bg-opacity-100
     w-full h-[80px] flex justify-between items-center px-4 text-gray-300 z-100' id='navbar'>
       <div>
         <img src={Logo} alt='Logo Image' style={{ width: '200px'}} />
@@ -27,21 +27,21 @@ const Navbar = () => {
       <ul className='hidden md:flex'>
         <li>
           <Link to='home' smooth={true} duration={500}>           
-          <button className='inline border-b-4 border-pink-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-gray-300 hover:text-white-600'>
+          <button className='inline border-b-4 border-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-gray-300 hover:text-white-600'>
           Home
         </button>            
           </Link>
         </li>
         <li>
           <Link to='skills' smooth={true} duration={500}>
-          <button className='inline border-b-4 border-pink-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-gray-300 hover:text-white-600'>
+          <button className='inline border-b-4 border-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-gray-300 hover:text-white-600'>
          Skills
         </button>             
         </Link>
         </li>
         <li>
           <Link to='experience' smooth={true} duration={500}>
-          <button className='inline border-b-4 border-pink-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-gray-300 hover:text-white-600'>
+          <button className='inline border-b-4 border-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-gray-300 hover:text-white-600'>
           Experience
         </button>   
           </Link>
@@ -49,14 +49,14 @@ const Navbar = () => {
 
         <li>
           <Link to='projects' smooth={true} duration={500}>
-          <button className='inline border-b-4 border-pink-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-gray-300 hover:text-white-600'>
+          <button className='inline border-b-4 border-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-gray-300 hover:text-white-600'>
           Projects
         </button>   
           </Link>
         </li>
         <li>
           <Link to='contact' smooth={true} duration={500}>
-          <button className='inline border-b-4 border-pink-600 inline border-b-4 border-pink-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-gray-300 hover:text-white-600'>
+          <button className='inline border-b-4 border-gray-600 inline border-b-4 border-pink-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-gray-300 hover:text-white-600'>
           Contact
         </button>   
           </Link>
@@ -73,7 +73,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#000000] flex flex-col justify-center items-center'
         }
       >
         <li className='py-6 text-4xl'>

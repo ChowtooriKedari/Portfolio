@@ -20,17 +20,19 @@ const Navbar = () => {
     <div className='bg-[black] fixed bg-opacity-100
     w-full h-[80px] flex justify-between items-center px-4 text-gray-300 z-100' id='navbar'>
       <div>
-        <img src={Logo} alt='Logo Image' style={{ width: '200px'}} />
+      <a href="/">
+          <img src={Logo} alt='Logo Image' style={{ width: '200px', cursor: 'pointer' }} />
+        </a>
       </div>
-
+      
       {/* menu */}
       <ul className='hidden md:flex'>
         <li>
-          <Link to='home' smooth={true} duration={500}>           
+        <a href="/" smooth={true} duration={500}>           
           <button className='inline border-b-4 border-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-gray-300 hover:text-white-600'>
           Home
         </button>            
-          </Link>
+          </a>
         </li>
         <li>
           <Link to='skills' smooth={true} duration={500}>

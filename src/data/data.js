@@ -44,9 +44,8 @@ export const VRProjectsData=[
     title: "Sky Pirates",
     des: "Centuries of human exploitation have left Earth barren of natural resources. In a fight for survival, humanity has fled to the skies."+
     "In this aerial domain, majestic yet perilous dragons roam freely, serving as the final source of sustenance in the sky. A VR Game where the task of the player is to fight against a dragon and survive.",
-    src: 'SkyPirates.png',
     githubLink: "https://drive.google.com/drive/folders/1fbwB62yGF9QObagc-3ubUoDyoj_pGeQq?usp=sharing",
-    websiteLink: "https://www.youtube.com/watch?v=JVHyfT9JBFo",
+    VideoLink: "https://www.youtube.com/watch?v=JVHyfT9JBFo",
   },
   {
     id:2,
@@ -54,33 +53,29 @@ export const VRProjectsData=[
     des: "Step into the Haunted Manor VR experience and brace yourself to confront the darkest recesses of your mind as you traverse its haunted halls."+
     "But beware, for in this realm of the supernatural, reality is elusive, and the truth obscured by shadows."+
     "Are you courageous enough to unveil the secrets shrouded within its eerie confines?",
-    src: 'car.png',
     githubLink: "https://drive.google.com/drive/folders/1IaZwuiDS0dgn5GlZmW4M6J0UtvGCISnH?usp=sharing",
-    websiteLink: "https://www.youtube.com/watch?v=qgV68e42dzo",
+    VideoLink: "https://www.youtube.com/watch?v=qgV68e42dzo",
   },
   
   {
     id:3,
     title: "Chith Vihar in VR",
     des: "Chith Vihar is the School of Computing Block in SASTRA Deemed University. The project was done in Oculus Go where the user can experience the building's infrastructure. Asset design and creation was done in Tinker Cad and worked on optimization to increase the efficiency ",
-    src: "Chithvihar.png",
-    websiteLink: "https://www.youtube.com/watch?v=weyd18y9PSs",
+    VideoLink: "https://www.youtube.com/watch?v=weyd18y9PSs",
     githubLink: "https://github.com/ChowtooriKedari/APK-s"
   },
   {
     id:4,
     title: "VR Fashion Show",
     des: "A basic VR Fashion show that could help in promoting fashion products without the customers visiting the location. A 360 VR Video that was made using Unity and Mixamo  ",
-    src: 'VRShow.png',
-    websiteLink: "https://www.youtube.com/watch?v=mfxuCUbvUno",
+    VideoLink: "https://www.youtube.com/watch?v=mfxuCUbvUno",
     githubLink: "https://github.com/ChowtooriKedari/VR-Fashion-Show_Basic"      
   },
   {
     id:5,
     title: "SASTRA Tour",
     des: "Designed and developed a small exploration game in Unity Game Engine for the users to view the University in Gaming. Models used in the project were made in Solid works and Tinker Cad",
-    src: 'SASTRATour.png',
-    websiteLink: "https://www.youtube.com/watch?v=dWvws69O6Ck",
+    VideoLink: "https://www.youtube.com/watch?v=dWvws69O6Ck",
     githubLink:"https://github.com/ChowtooriKedari/SASTRA-Tour-Unity"
   },
   {
@@ -134,6 +129,7 @@ export const ModelingandAnimationData=[
     id:3,
     title: "Brothers",
     des: "An animation that illustrates the bond between brothers, from childhood days to sibling rivalry, highlighting moments of happiness, sorrow, and togetherness. Created using Maya and Motion Capture.",
+
     videoLink:'https://youtu.be/yJtsT4QvYUY'
   },
   {

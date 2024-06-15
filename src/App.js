@@ -32,6 +32,7 @@ function App() {
           <Route path='/WebDevProjects' element={<WebDevProjects />} exact />
           <Route path='/ModelingAnimation' element={<><ModelingAnimation /></>} exact />
           <Route path='/Photography' element={<><Photography /></>} exact />
+          
         </Routes>
       </Router>
       <Contact />

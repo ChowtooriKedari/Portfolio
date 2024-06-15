@@ -3,6 +3,7 @@ import { projectsData } from "../../data/data.js";
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
 import { AiFillYoutube } from "react-icons/ai";
+import { IoMdSend } from "react-icons/io";
 
 const WorkHeader = () => {
   return (
@@ -51,7 +52,7 @@ const WorkHeader = () => {
               {item.websiteLink && (
                 <a href={item.websiteLink} target="_self" rel="noopener noreferrer">
                   <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                    <FaGlobe />
+                    <IoMdSend />
                   </span>
                 </a>
               )}

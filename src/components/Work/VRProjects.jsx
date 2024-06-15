@@ -3,7 +3,7 @@ import { VRProjectsData } from "../../data/data.js";
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
 import { AiFillYoutube } from "react-icons/ai";
-
+import VideoPlayer from "./VideoPlayer.jsx";
 const VRProjects = () => {
   return (
  <section
@@ -27,12 +27,15 @@ const VRProjects = () => {
           hover:bg-gradient-to-b 
           hover:from-gray-900 hover:gray-900 
           transition-colors hover:scale-105 duration-500 hover:transition hover:ease-in-out">
-          <div className="w-full h-[80%] overflow-hidden rounded-lg">
-              <img
+          <div className="w-full h-[100%] overflow-hidden rounded-lg">
+          {item.src && (   <img
                     className="w-full h-full max-h-[200px] object-cover"
                     src={item.src}
                     alt={item.src}
-                  />
+                  />)}
+         <div className="w-full h-[100%] overflow-hidden rounded-lg">
+         {item.VideoLink && (<VideoPlayer url={item.VideoLink} />)}
+        </div>       
         </div>
 <div className="w-full mt-5 flex flex-col gap-6">
 <div>
@@ -45,13 +48,6 @@ const VRProjects = () => {
                 <a href={item.githubLink} target="_blank" rel="noopener noreferrer">
                   <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                     <BsGithub />
-                  </span>
-                </a>
-              )}
-              {item.websiteLink && (
-                <a href={item.websiteLink} target="_blank" rel="noopener noreferrer">
-                  <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                    <FaGlobe />
                   </span>
                 </a>
               )}

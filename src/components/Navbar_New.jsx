@@ -12,7 +12,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/Kedari Chowtoori-logos_white.png';
 import { Link } from 'react-scroll';
 
-const Navbar = () => {
+const Navbar_New  = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
@@ -34,35 +34,6 @@ const Navbar = () => {
         </button>            
           </a>
         </li>
-        <li>
-          <Link to='skills' smooth={true} duration={500}>
-          <button className='inline border-b-4 border-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-gray-300 hover:text-white-600'>
-         Skills
-        </button>             
-        </Link>
-        </li>
-        <li>
-          <Link to='experience' smooth={true} duration={500}>
-          <button className='inline border-b-4 border-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-gray-300 hover:text-white-600'>
-          Experience
-        </button>   
-          </Link>
-        </li>
-
-        <li>
-          <Link to='projects' smooth={true} duration={500}>
-          <button className='inline border-b-4 border-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-gray-300 hover:text-white-600'>
-          Projects
-        </button>   
-          </Link>
-        </li>
-        <li>
-          <Link to='contact' smooth={true} duration={500}>
-          <button className='inline border-b-4 border-gray-600 inline border-b-4 border-pink-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-gray-300 hover:text-white-600'>
-          Contact
-        </button>   
-          </Link>
-        </li>
       </ul>
 
       {/* Hamburger */}
@@ -79,35 +50,11 @@ const Navbar = () => {
         }
       >
         <li className='py-6 text-4xl'>
-          <a href="/" smooth={true} duration={500}>           
+        <a href="/" smooth={true} duration={500}>           
           <button className='inline border-b-4 border-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-gray-300 hover:text-white-600'>
           Home
         </button>            
           </a>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='experience' smooth={true} duration={500}>
-            Experience
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
-            Projects
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-            Contact
-          </Link>
         </li>
       </ul>
 
@@ -144,4 +91,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar_New;

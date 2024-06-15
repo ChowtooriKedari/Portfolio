@@ -16,7 +16,7 @@ const WorkHeader = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300 p-4'>Projects</p>
                </div>
       </div>
-          </div>` `
+          </div>
         <div className="flex justify-center items-center text-center">
         </div>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
@@ -38,7 +38,7 @@ const WorkHeader = () => {
 <div className="w-full mt-5 flex flex-col gap-6">
 <div>
   <div className="flex items-center justify-between">
-    <h5 className="capitalize text-designColor font-normal">
+    <h5 className="capitalize text-designColor font-normal ml-auto mr-auto">
       {item.title}
     </h5>
     <div className="flex gap-2">

@@ -1,6 +1,7 @@
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
+import Navbar_New from "./components/Navbar_New";
 import Skills from "./components/Skills";
 import WorkHeader from "./components/Work/WorkHeader";
 import VRProjects from "./components/Work/VRProjects";
@@ -15,32 +16,70 @@ import {BrowserRouter as Router, Switch, Route,Routes} from "react-router-dom";
 function App() {
   return (
     <div className="bg-[black] bg-opacity-90">
-    <Navbar />
-    <div className="max-w-screen-xl mx-auto">
       <Router>
         <Routes>
-          <Route path='/' element={
-            <>
+          <Route path='/' 
+            element={
+              <>
+              <Navbar />
+              <div className="max-w-screen-xl mx-auto">
               <Home />
               <Skills />
               <Experience />
               <WorkHeader />
+              </div>
+              </>
+          } exact />
+          <Route path='/VRProjects' element={
+            <>
+            <Navbar_New/> 
+            <div className="max-w-screen-xl mx-auto">
+            <VRProjects />
+            </div>
             </>
           } exact />
-          <Route path='/VRProjects' element={<VRProjects />} exact />
-          <Route path='/TangibleUI' element={<TangibleUI />} exact />
-          <Route path='/WebDevProjects' element={<WebDevProjects />} exact />
-          <Route path='/ModelingAnimation' element={<><ModelingAnimation /></>} exact />
-          <Route path='/Photography' element={<><Photography /></>} exact />
+          <Route path='/TangibleUI' element={ 
+            <>
+            <Navbar_New/> 
+            <div className="max-w-screen-xl mx-auto">
+            <TangibleUI />
+            </div>
+            </>
+          } exact />
+          <Route path='/WebDevProjects' element={
+             <>
+            <Navbar_New/> 
+            <div className="max-w-screen-xl mx-auto">
+            <WebDevProjects />
+            </div>
+            </>
+          } exact />
+          <Route path='/ModelingAnimation' element={
+            <>
+            <Navbar_New/> 
+            <div className="max-w-screen-xl mx-auto">
+            <ModelingAnimation />
+            </div>
+            </>
+          } exact />
+          <Route path='/Photography' element={
+            <>
+            <Navbar_New/> 
+            <div className="max-w-screen-xl mx-auto">
+            <Photography />
+            </div> 
+            </>
+          } exact />
           
         </Routes>
       </Router>
       <Contact />
       <Footer />
-    </div>
-  </div>
+      </div>
 
   );
 }
 
 export default App;
+
+

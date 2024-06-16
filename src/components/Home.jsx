@@ -39,11 +39,10 @@ const Home = () => {
           />
         </h2>
         <div className='text-[white] py-4 max-w-[900px] pl-4 text-justify' id="AboutContentCursor">
-          <p>I’m a full-stack developer with a year and a half of experience in web development.
-            I like to build interactive websites that provide a better user experience.
-            I have experience working on projects that have a huge customer base.
-            I also love to build Virtual Reality Simulations and games.
-            I am passionate about building software that in one way or the other is helpful to people in society.</p>
+          <p>Hello! I'm Kedari Chowtoori, a full-stack developer with a year and a half of experience. 
+            I specialize in building interactive websites that enhance user experience and have successfully worked on projects 
+            serving large customer bases. Additionally, I love creating Virtual Reality simulations and games, seamlessly combining 
+            creativity with technology. My passion lies in developing software that positively impacts society and delivers meaningful solutions to users.</p>
         </div>
       </div>
       <div>

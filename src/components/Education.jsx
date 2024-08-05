@@ -34,7 +34,7 @@ const educationData = [
 
 const Education = () => {
   return (
-    <div className="education-section">
+    <div name='education' className="education-section">
       <h2 className="section-title">Education</h2>
       <br></br>
       <div className="timeline">

@@ -31,7 +31,7 @@ const Contact = () => {
       <p className="text-base text-md text-gray-400 flex items-center gap-2">
         Email:{" "}
         <span className="text-lightText">
-        <a href="mailto:kedarichowtoori@gmail.com">kedari.chowtoori.gr@dartmouth.edu</a>
+        <a href="mailto:kedari.chowtoori.gr@dartmouth.edu">kedari.chowtoori.gr@dartmouth.edu</a>
         </span>
       </p>
     </div>

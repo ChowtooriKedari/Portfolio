@@ -12,6 +12,7 @@ import Photography from "./components/Work/Photography";
 import Experience from "./components/Experience/Experience";
 import Footer from "./components/Footer";
 import {BrowserRouter as Router, Switch, Route,Routes} from "react-router-dom";
+import Education from "./components/Education";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
               <div className="max-w-screen-xl mx-auto">
               <Home />
               <Skills />
+              <Education/>
               <Experience />
               <WorkHeader />
               </div>

@@ -18,6 +18,7 @@ const Experience = () => {
   {WorkExperiences.map((item, index) => (
             <ExperienceCard
             key={index}
+            image={item.img}
               title={item.title}
               subTitle={item.subTitle}
               result={item.location}

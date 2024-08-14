@@ -1,0 +1,51 @@
+/* Home.css */
+
+.transparent-text {
+    background: linear-gradient(to right, #fff, #ccc); /* Placeholder gradient */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-fill-color: transparent;
+  }
+  
+  .splash-container {
+    position: relative;
+    height: 100%;
+  }
+  
+  .splash {
+    position: absolute;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.5); /* Default color, overridden by JS */
+    border-radius: 50%;
+    pointer-events: none;
+    animation: splash 1s ease-out forwards;
+  }
+  
+  @keyframes splash {
+    0% {
+      transform: translateY(0) scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-30px) scale(1.5);
+      opacity: 0.7;
+    }
+    100% {
+      transform: translateY(-60px) scale(0.8);
+      opacity: 0;
+    }
+  }
+  /* Home.css */
+
+.blend-text {
+    font-size:3em;
+    color: transparent;
+    background-color: rgba(255, 255, 255, 0.1);
+    mix-blend-mode: screen;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  

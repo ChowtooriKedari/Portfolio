@@ -16,14 +16,14 @@ import Education from "./components/Education";
 
 function App() {
   return (
-    <div className="bg-[black] bg-opacity-90">
+    <div className="bg-[black] bg-opacity-100 overflow-hidden">
       <Router>
         <Routes>
           <Route path='/' 
             element={
               <>
               <Navbar />
-              <div className="max-w-screen-xl mx-auto">
+              <div className="mx-auto">
               <Home />
               <Skills />
               <Education/>

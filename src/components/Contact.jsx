@@ -35,7 +35,7 @@ const Contact = () => {
           <a href="mailto:kedari.chowtoori.gr@dartmouth.edu" aria-label="Email">
             <SiGmail className="text-lightText text-2xl hover:text-pink-600 transition duration-300" />
           </a>
-          <a href="https://www.linkedin.com/in/kedari-chowtoori/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/kedari99/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedin className="text-lightText text-2xl hover:text-pink-600 transition duration-300" />
           </a>
           <a href="https://github.com/ChowtooriKedari" target="_blank" rel="noopener noreferrer" aria-label="GitHub">

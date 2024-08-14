@@ -86,7 +86,7 @@ const Home = () => {
           <img
             src="/Kedari.png"
             alt="Avatar"
-            className="max-w-[250px] rounded-full mx-auto"
+            className="max-w-[250px] max-h-[250px] rounded-full mx-auto"
           />
         </div>
         <div className="text-white max-w-[850px] text-center">

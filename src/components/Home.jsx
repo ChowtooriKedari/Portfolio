@@ -103,7 +103,7 @@ const Home = () => {
             />
           </h2>
           <div className="text-white py-4 text-l md:text-l lg:text-l text-justify">
-            <p>Hello! I'm Kedari Chowtoori, a full-stack developer with a year and a half of experience. 
+            <p>Hello! I'm Kedari Chowtoori, a full-stack developer with three years of experience. 
               I specialize in building interactive websites that enhance user experience and have successfully worked on projects 
               serving large customer bases. Additionally, I love creating Virtual Reality simulations and games, seamlessly combining 
               creativity with technology. My passion lies in developing software that positively impacts society and delivers meaningful solutions to users.</p>

@@ -243,7 +243,7 @@ const skillData = [
   {
     title: 'Development Tools and IDEs',
     icon: VisualStudioIcon,
-    skills: ['Visual Studio', 'VS Code', 'Jupyter Notebook'],
+    skills: ['Visual Studio', 'VS Code'],
   },
   {
     title: 'Testing and API Documentation Tools',

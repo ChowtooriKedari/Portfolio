@@ -8,13 +8,12 @@ import ViswamIcon from '../assets/Viswam.png';
 const educationData = [
   {
     id: 1,
-    degree: [
-      " Masters in Computer Science - Digital Arts",
-      " Research assistant in RISC Lab "
-      ],
+    degree:"Masters in Computer Science - Digital Arts",
     institution: "Dartmouth College, Hanover, NH, USA",
     duration: "2023-2025",
-    details: "",
+    details: [
+      " Research assistant in RISC Lab "
+      ],
     icon: DartmouthIcon
   },
   {

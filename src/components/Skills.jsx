@@ -233,12 +233,12 @@ const skillData = [
   {
     title: 'Design Tools',
     icon: MayaIcon,
-    skills: ['Maya', 'Figma'],
+    skills: ['Maya'],
   },
   {
     title: 'Web Development Frameworks',
     icon: AngularIcon,
-    skills: ['ASP.Net MVC', 'ASP.Net Core', 'Ruby on Rails', 'Angular', 'NodeJS'],
+    skills: ['ASP.Net MVC', 'ASP.Net Core', 'Ruby on Rails', 'Angular', 'NodeJS', 'React Native'],
   },
   {
     title: 'Development Tools and IDEs',
@@ -258,7 +258,7 @@ const skillData = [
   {
     title: 'Cloud Services',
     icon: AzureIcon,
-    skills: ['Microsoft Azure'],
+    skills: ['Microsoft Azure','AWS'],
   },
 ];
 

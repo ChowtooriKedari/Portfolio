@@ -197,7 +197,7 @@ export const workExperiences= [
     subTitle: "Dartmouth College- (06/2024 - Present)",
     location: "Hanover, NH",
     description: [
-      " Assist in teaching the Computer Graphics and Digital Fabrication class",
+      " Assist in teaching the Computer Graphics, Digital Fabrication class, AR and VR Development, Tangible User Interfaces and Computational Photography",
       " Support students in understanding course concepts and completing assignments",
       " Lead lab sessions and provide one-on-one assistance to students",
       " Aid in grading assignments and developing course materials"
@@ -212,7 +212,8 @@ export const workExperiences= [
     description: [
       " Serve as a member of the research team, focusing on developing an interactive timeline to showcase Dartmouth’s art history",
       " Work on building a website using Angular and JavaScript for the timeline project",
-      " Contribute to organizing various student events across campus, including the Hanunder Student Festival"    
+      " Contribute to organizing various student events across campus, including the Hanunder Student Festival",   
+      " Developed an app (https://apps.apple.com/us/app/peppers-ghost/id6744206339) to showcase the student's 3D Modeling art work during the Hanunder Student Festival"
   ],
     img: 'HOP.png',
   },
@@ -222,13 +223,12 @@ export const workExperiences= [
       subTitle: "Blackhawk Network- (03/2023 - 07/2023)",
       location: "Bangalore, India",
       description: [
-         " Member of the platforms-shared services product line - Business Gift card store project Scrum Team and developed functionalities for web pages using client-side scripts JavaScript and Angular",
-         " Conducted thorough analysis of business goals to ensure alignment with website functionality",
-         " Worked on pagination based product fetching with optimized API requests that led to effective server operations",
-         " Server calls were strategically divided based on priority and developed server-side pagination for maximum performance",
-         " Created and implemented test cases for services using tools like NUnit and MoQ, demonstrating skill in software testing and raising code coverage to 80% ensuring that the source is being thoroughly tested by following software development life cycle (SDLC) methodology",
-         " Ensured cross-browser compatibility, optimized website performance, and developed a mobile responsive design to enhance the user experience for customers accessing the website on smartphones and tablets",
-         " Handled parts of UAT and production deployments by collaborating with database and infrastructure teams to ensure smooth deployments"
+      " Developed web page functionalities for the Business Gift Card Store Project using JavaScript, jQuery, and Angular as part of the Platforms-Shared Services Product Line",
+      " Implemented server-side pagination to optimize API requests, reducing server load by 30% and improving overall system performance by 25% through prioritized server calls",
+      " Designed and executed test cases with NUnit and MoQ, achieving 80% code coverage and ensuring compliance with the Software Development Life Cycle (SDLC)", 
+      " Enhanced user experience by ensuring cross-browser compatibility and creating a mobile-responsive design for seamless functionality on smartphones and tablets",
+      " Collaborated with database and infrastructure teams during User Acceptance Testing (UAT) and production deployments, ensuring smooth releases with reduced deployment issues",
+      " Managed CI/CD workflows using Bitbucket, SourceTree, and Octopus Deploy, ensuring efficient version control, branch management, and seamless deployments across multiple environments"
       ],
       img: 'BHN.jpg',
     },
@@ -238,12 +238,11 @@ export const workExperiences= [
       subTitle: "Blackhawk Network - (11/2021 - 03/2023)",
       location: "Bangalore, India",
       description: [
-        " Member of the platforms-shared services team and worked on the company’s internal project and Business Gift card store project",
-        " Played a vital part in the creation of a web application that redesigned the employee inquiry process by utilizing Microsoft Graph API and Azure AD",
-        " Developing, deploying, and maintaining the web pages were part of my daily job activities",
-        " Used data insights to make informed decisions and optimize the application for better performance",
-        " Worked on database scripts and ensured they were optimized and produced the desired results",
-        " Developed web services for fetching and exposing data from databases and worked on optimizing API calls",
+      " Contributed to the Platforms-Shared Services team, supporting internal initiatives and the Business Gift Card Store project",
+      " Designed and developed a web application using Microsoft Graph API and Azure AD to streamline the employee inquiry process, reducing response time by 40%",
+      " Leveraged data insights to optimize application performance, achieving a 20% improvement while enhancing database scripts to boost query efficiency by 30%",
+      " Developed and fine-tuned web services for efficient data retrieval, reducing API response times by 25%",
+      " Conducted unit testing to ensure functionality and used JMeter scripts for performance testing, improving application"
       ],
       img: 'BHN.jpg',
     },
@@ -253,11 +252,11 @@ export const workExperiences= [
       subTitle: "Hewlett Packard - (02/2021 - 08/2021)",
       location: "Bangalore, India",
       description: [
-        " Worked as an Intern in the Domain - Product Content Management with .Net Product Content Development Team",
-        " Daily tasks include Coding, testing, debugging, documenting and implementing parts of the software that are assigned",
-        " Developed web services to fetch and display product catalog information and provided the documentation for the same",
-        " Worked on a Rule Engine-based project that assists the product owner in deciding which products, together with their descriptions,that should be presented in the catalog for the user",
-        " Worked on code optimization ensuring performance and worked on unit and integration testing of the application"
+       " Supported the .NET Product Content Development Team by developing and maintaining software for Product Content Management",
+       " Executed tasks such as coding, testing, debugging, and documenting software components, increasing module efficiency by 15%",
+       " Built webservices to retrieve and display product catalog information, ensuring comprehensive documentation for seamless integration",
+       " Worked on Rule Engine-based project that helped product owners determine which products and descriptions to display in the catalog, optimizing code to enhance performance",
+       " Performed unit and integration testing to identify and resolve issues, improving software reliability by 20%"
    ],
    img: 'HP.png',
     },

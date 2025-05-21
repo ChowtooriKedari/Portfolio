@@ -210,7 +210,7 @@ export const workExperiences= [
     subTitle: "Hopkins Center for the Arts at Dartmouth- (09/2023 - Present)",
     location: "Hanover, NH",
     description: [
-      " Serve as a member of the research team, focusing on developing an interactive timeline to showcase Dartmouth’s art history",
+      " Serve as a member of the research team, focusing on developing an interactive timeline (https://hop-time-line-new.vercel.app) to showcase Dartmouth’s art history",
       " Work on building a website using Angular and JavaScript for the timeline project",
       " Contribute to organizing various student events across campus, including the Hanunder Student Festival",   
       " Developed an app (https://apps.apple.com/us/app/peppers-ghost/id6744206339) to showcase the student's 3D Modeling art work during the Hanunder Student Festival"

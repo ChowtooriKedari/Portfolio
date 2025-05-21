@@ -197,7 +197,7 @@ export const workExperiences= [
     subTitle: "Dartmouth College- (06/2024 - Present)",
     location: "Hanover, NH",
     description: [
-      " Assist in teaching the classes: Computer Graphics, Digital Fabrication, AR and VR Development, Tangible User Interfaces and Computational Photography",
+      " Assisted in teaching and supporting coursework for the following graduate-level classes: Computer Graphics, Digital Fabrication, AR/VR Development, Tangible User Interfaces, and Computational Photography",
       " Support students in understanding course concepts and completing assignments",
       " Lead lab sessions and provide one-on-one assistance to students",
       " Aid in grading assignments and developing course materials"

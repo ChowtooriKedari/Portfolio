@@ -22,7 +22,10 @@ const educationData = [
     degree: "B.Tech in Computer Science and Engineering",
     institution: "SASTRA Deemed University, Tamil Nadu, India",
     duration: "2017-2021",
-    details: "Deans Merit Scholarship recipient",
+    details: [
+      " Deans Merit Scholarship recipient",
+      " National Scholarship recipient"
+             ]
     icon: SASTRAIcon
   },
   {
@@ -30,7 +33,7 @@ const educationData = [
     degree: "Higher Secondary",
     institution: "Narayana Junior College, Andhra Pradesh, India",
     duration: "2015-2017",
-    details: "Awarded the National Merit Scholarship by the Central Government of India for outstanding performance in Higher Secondary Board Examinations",
+    details: " Awarded the National Merit Scholarship by the Central Government of India for outstanding performance in Higher Secondary Board Examinations",
     icon: NarayanaIcon
   },
   {

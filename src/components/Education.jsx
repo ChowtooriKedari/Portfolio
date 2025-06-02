@@ -13,6 +13,7 @@ const educationData = [
     duration: "2023-2025",
     details: [
       " Research assistant in RISC Lab "
+      " Outstanding Achievements in Interactive Digital Art Award"
       ],
     icon: DartmouthIcon
   },

@@ -12,7 +12,7 @@ const educationData = [
     institution: "Dartmouth College, Hanover, NH, USA",
     duration: "2023-2025",
     details: [
-      " Research assistant in RISC Lab ",
+      " Research assistant in RISC Lab,  ",
       " Outstanding Achievements in Interactive Digital Art Award"
       ],
     icon: DartmouthIcon
@@ -23,9 +23,9 @@ const educationData = [
     institution: "SASTRA Deemed University, Tamil Nadu, India",
     duration: "2017-2021",
     details: [
-      " Deans Merit Scholarship recipient",
+      " Deans Merit Scholarship recipient, ",
       " National Scholarship recipient"
-             ]
+             ],
     icon: SASTRAIcon
   },
   {

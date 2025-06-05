@@ -23,7 +23,7 @@ export const projectsData=[
   },
   {
     id:4,
-    title: "Web Development Projects",
+    title: "Web and App Development Projects",
     des: "Designed a small exploration game in Unity Game Engine for the users to view the University in Gaming. Models used in the project were made in Solid works and Tinker Cad",
     src: 'Cafe.png',
     websiteLink: "/WebDevProjects",
@@ -116,6 +116,14 @@ export const WebDevProjectsData=[
     src: 'hopArtsWebsite.png',
     githubLink: "https://github.com/ChowtooriKedari/Hop_TimeLine_New",
     attachmentLink: "https://hop-time-line-new.vercel.app"
+  },
+  {
+    id:4,
+    title: "HOP Pepper's Ghost",
+    des: "Pepper’s Ghost App is a mobile experience I developed as part of the Hopkins Center for the Arts project at Dartmouth. Designed using React Native, the app enables users to view pre-recorded student performances as holographic illusions using the classic Pepper’s Ghost technique. It includes an admin upload feature (for internal use only) and a viewer mode that brings digital content to life through a minimalist interface.",
+    src: 'mobileApp.jpg',
+    githubLink: "https://github.com/ChowtooriKedari/HOPPepperGhost",
+    attachmentLink: "https://apps.apple.com/us/app/peppers-ghost/id6744206339?platform=iphone"
   }
 ];
 

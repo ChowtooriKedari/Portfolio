@@ -210,7 +210,7 @@ export const workExperiences= [
   {
     _id: 5,
     title: "Teaching Assistant",
-    subTitle: "Dartmouth College- (06/2024 - Present)",
+    subTitle: "Dartmouth College- (06/2024 - 06/2025)",
     location: "Hanover, NH",
     description: [
       " Assisted in teaching and supporting coursework for the following graduate-level classes: Computer Graphics, Digital Fabrication, AR/VR Development, Tangible User Interfaces, and Computational Photography",
@@ -223,7 +223,7 @@ export const workExperiences= [
   {
     _id: 4,
     title: "Hop Fellow",
-    subTitle: "Hopkins Center for the Arts at Dartmouth- (09/2023 - Present)",
+    subTitle: "Hopkins Center for the Arts at Dartmouth- (09/2023 - 06/2025)",
     location: "Hanover, NH",
     description: [
       " Serve as a member of the research team, focusing on developing an interactive timeline (https://hop-time-line-new.vercel.app) to showcase Dartmouth’s art history",

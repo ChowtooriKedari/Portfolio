@@ -108,6 +108,14 @@ export const WebDevProjectsData=[
     des: "A small todo app to add a list of check list items. Users can create,edit and delete the list of todo items",
     src: 'Todo.png',
     githubLink: "https://github.com/ChowtooriKedari/todo_manager"
+  },
+  {
+    id:3,
+    title: "HOP Art History Timeline Website",
+    des: "Hop Arts history timeline is an interactive digital timeline I developed for the Hopkins Center for the Arts at Dartmouth. Built using Angular and JavaScript, the website showcases the rich history of student art and performances on campus.",
+    src: 'hopArtsWebsite.png',
+    githubLink: "https://github.com/ChowtooriKedari/Hop_TimeLine_New",
+    attachmentLink: "https://hop-time-line-new.vercel.app"
   }
 ];
 

@@ -207,10 +207,24 @@ export const TangibleUIData=[
   }
 ];
 export const workExperiences= [
+    {
+    _id: 6,
+    title: "Research Assistant",
+    subTitle: "Dartmouth College - (06/2024 - 06/2025)",
+    location: "Hanover, NH",
+    description: [
+      " Member of RISC lab and worked on my masters thesis titled \"A Highspeed Imaging Framework Using Sparse Sampling And Generative Priors\"",
+      " Designed a novel high-speed imaging system to capture phenomena invisible to the human eye ",
+      " Addressed bandwidth limitations in traditional imaging by integrating generative AI for reconstructing high-resolution images ",
+      " Combined fast data acquisition with intelligent reconstruction, enabling detailed imaging from minimal sensor input ",
+      " Leveraged a single-pixel detector and advanced scanning techniques to optimize performance and scalability "
+    ],
+    img: 'Dartmouth.png',
+  },
   {
     _id: 5,
     title: "Teaching Assistant",
-    subTitle: "Dartmouth College- (06/2024 - 06/2025)",
+    subTitle: "Dartmouth College - (06/2024 - 06/2025)",
     location: "Hanover, NH",
     description: [
       " Assisted in teaching and supporting coursework for the following graduate-level classes: Computer Graphics, Digital Fabrication, AR/VR Development, Tangible User Interfaces, and Computational Photography",
@@ -223,7 +237,7 @@ export const workExperiences= [
   {
     _id: 4,
     title: "Hop Fellow",
-    subTitle: "Hopkins Center for the Arts at Dartmouth- (09/2023 - 06/2025)",
+    subTitle: "Hopkins Center for the Arts at Dartmouth - (09/2023 - 06/2025)",
     location: "Hanover, NH",
     description: [
       " Serve as a member of the research team, focusing on developing an interactive timeline (https://hop-time-line-new.vercel.app) to showcase Dartmouth’s art history",
@@ -236,7 +250,7 @@ export const workExperiences= [
     {
       _id: 3,
       title: "Software Engineer",
-      subTitle: "Blackhawk Network- (03/2023 - 07/2023)",
+      subTitle: "Blackhawk Network - (03/2023 - 07/2023)",
       location: "Bangalore, India",
       description: [
       " Developed web page functionalities for the Business Gift Card Store Project using JavaScript, jQuery, and Angular as part of the Platforms-Shared Services Product Line",

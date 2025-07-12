@@ -13,7 +13,7 @@ const Photography = () => {
           <div  className='w-full text-gray-300'>
           <div className='max-w-[1000px] mx-auto p-2 flex flex-col justify-center w-full h-full'>
         <div className='flex flex-col w-full justify-center items-center'>
-                <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300 p-4'>Photography</p>
+                <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300 p-4'>Computational Photography</p>
                </div>
       </div>
           </div>

@@ -16,7 +16,7 @@ export const projectsData=[
   },  
   {
     id:3,
-    title: "Photography",
+    title: "Computational Photography",
     des: "Designed a small exploration game in Unity Game Engine for the users to view the University in Gaming. Models used in the project were made in Solid works and Tinker Cad",
     src: 'Atrium.jpg',
     websiteLink: "/Photography",

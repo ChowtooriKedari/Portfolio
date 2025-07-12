@@ -209,7 +209,8 @@ export const TangibleUIData=[
     id:8,
     title: "Interactive Yoga",
     des: "Developed an immersive yoga experience that combines real-time pose detection, breathing feedback, and dynamic fluid art using Arduino, MediaPipe, and Unity.",
-    attachmentLink: "https://drive.google.com/file/d/1UHE8LgTVZwIMsgS7v48KYdwej9pOx2W0/view?usp=sharing"
+    attachmentLink: "https://drive.google.com/file/d/1UHE8LgTVZwIMsgS7v48KYdwej9pOx2W0/view?usp=sharing",
+    videoLink: "https://youtu.be/WVHvqrBwxjQ"
   }
 ];
 export const workExperiences= [

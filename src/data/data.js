@@ -170,12 +170,6 @@ export const PhotographyData=[
   }
 ];
 export const TangibleUIData=[
-    {
-    id:0,
-    title: "Interactive Yoga",
-    des: "Developed an immersive yoga experience that combines real-time pose detection, breathing feedback, and dynamic fluid art using Arduino, MediaPipe, and Unity.",
-    attachmentLink: "https://drive.google.com/file/d/1zcaMv_AfYy1Mz8Wp7uQd4r6aw7K5990w/view?usp=sharing"
-  },
   {
     id:1,
     title:"Servo Motors and Piezo Buzzers",
@@ -210,6 +204,12 @@ export const TangibleUIData=[
     id:7,
     title:"Arduino and LEDs",
     videoLink: "https://youtu.be/WVHvqrBwxjQ"
+  },
+    {
+    id:8,
+    title: "Interactive Yoga",
+    des: "Developed an immersive yoga experience that combines real-time pose detection, breathing feedback, and dynamic fluid art using Arduino, MediaPipe, and Unity.",
+    attachmentLink: "https://drive.google.com/file/d/1UHE8LgTVZwIMsgS7v48KYdwej9pOx2W0/view?usp=sharing"
   }
 ];
 export const workExperiences= [

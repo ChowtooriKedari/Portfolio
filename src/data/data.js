@@ -165,8 +165,7 @@ export const PhotographyData=[
     des: "An unstructured light field refers to a method of capturing light information from a scene without a fixed or regular arrangement of cameras or view points. This is different from the traditional light fields, that use a structured grid of cameras. The unstructured light field approach can provide more flexibility in capturing complex scenes and is usually used in applications like computer vision, virtual reality and image based rendering.",
     src: 'LightFieldCameraSetup.jpg',
     githubLink: "https://github.com/ChowtooriKedari/Unstructured-Light-Field/tree/main/Unstructured%20Light%20Field",
-    websiteLink: "https://drive.google.com/file/d/1OHSOW7BVllWL4Bl2Dc33tJsbGcg7KIQP/view?usp=sharing",
-    attachmentLink: "https://drive.google.com/file/d/1zcaMv_AfYy1Mz8Wp7uQd4r6aw7K5990w/view?usp=sharing"
+    attachmentLink: "https://drive.google.com/file/d/1vG6ODmV-8hXwc0T023dwbm3c_ijt1KGE/view?usp=sharing"
   }
 ];
 export const TangibleUIData=[
